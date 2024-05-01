@@ -17,6 +17,9 @@ h2 {
 img {
     height: auto;
     width: 400px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: inline-block;
 }
 
 hr {
