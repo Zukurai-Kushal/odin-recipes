@@ -14,20 +14,40 @@ h2 {
     font-size: 30px;
 }
 
+.container {
+    display: flex;
+    margin-right: 50px; 
+}
+
+.container > p {
+    padding: 10px;
+    margin: 0;
+}
+
 img {
-    height: auto;
     width: 400px;
+    height: auto;
     border: 2px solid black;
     box-sizing: border-box;
     display: inline-block;
+    flex: none;
 }
 
 hr {
     border: 1px solid black;
 }
 
-.center {
+.header {
     text-align: center;
+}
+
+ul {
+    padding: 10;
+    margin: 0;
+}
+
+a {
+    color: goldenrod;
 }
 
 
